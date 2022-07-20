@@ -1,0 +1,15 @@
+
+
+*{
+    box-sizing:border-box;
+}
+body {
+   background-color: black;
+   font-family: 'Share Tech Mono', monospace; 
+   
+}
+
+p{
+    color:white;
+}
+

@@ -1,0 +1,44 @@
+.navtop {
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.navtop ul{
+    width: 90%;
+    list-style:none;
+    color:white;
+    display:flex;
+    padding-left: 20px;
+}
+.navtop a, 
+.navtop a:visited {
+    color:white;
+    text-decoration: none;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    height: 200px;
+    background-image: url(https://static-mh.content.disney.io/starwars/assets/navigation/sw_logo_stacked-336c62367939.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+
+.login .input-field {
+    margin-top: 10%;
+}
