@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './index.css';
-import App from './App';
 import Navbar from './components/navbar/Navbar';
 import NavbarTop from './components/navbarTop/NavbarTop';
 import Login from './components/navbarTop/Login';
@@ -11,6 +9,10 @@ import StarshipList from './components/navbar/StarshipList';
 import Starship from './components/Starship';
 import Home from './components/navbar/Home';
 import reportWebVitals from './reportWebVitals';
+import  './components/starship.css';
+import './components/styles.css';
+import './components/navbarTop/navbarTop.css'
+import './components/navbar/navbar.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

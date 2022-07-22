@@ -19,7 +19,7 @@ const Starship = (props) => {
 
     return (
        
-        <div>
+        <div className = "infoStarship">
             <h1>{info.name}</h1>
             <img src={`https://starwars-visualguide.com/assets/img/starships/${id}.jpg`} />
             <p>

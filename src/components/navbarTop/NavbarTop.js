@@ -22,7 +22,4 @@ function NavbarTop (){
 
 }
 
-
-
- 
-  export default NavbarTop;
+export default NavbarTop;

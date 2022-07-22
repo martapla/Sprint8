@@ -1,0 +1,26 @@
+.infoStarship  {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 100%;
+    align-items: center;
+}    
+
+.infoStarship,.img {
+    margin-top: 400px;
+    width: 100%;
+    height: 300px;
+    
+} 
+
+.infoStarship,.h1 {
+    width: 100%;
+    height: 100px;
+    color: white;
+    
+}
+.infoStarship, .p {
+    color:white;
+    font-size: 25px;
+  
+}

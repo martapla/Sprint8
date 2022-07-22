@@ -9,9 +9,10 @@ function StarshipList (){
     const [page, setPage] = useState(1);
 
     async function loadApi(){
-        const response = await axios(nextPage ? nextPage : "https://swapi.py4e.com/api/starships");
-        const data = await response.data;
-        const mappedResults = data.results.map(
+         const response = await axios(nextPage ? nextPage : "https://swapi.py4e.com/api/starships");
+         const data = await response.data;
+
+         const mappedResults = data.results.map(
             result => {
                 const urlSplitted = result.url.split('/')
                 result.id = urlSplitted.at(-2)
