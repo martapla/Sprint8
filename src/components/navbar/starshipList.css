@@ -1,0 +1,44 @@
+.boxName {
+    width:70%;
+    height: 120px;
+    background-color: rgb(35, 34, 34);
+    border-radius: 5px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+    text-align: left;
+    text-decoration:none;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left:20px;
+    font-size: 12px;
+   
+}
+.boxName, a {
+    text-decoration: none;
+    font-weight:lighter;
+}
+
+.button-view {
+    width: 20%;
+    margin-left: 40%;
+    padding: 0.3em;
+    border: 0.1rem solid white;
+    border-radius: 50px ;
+    color:white;
+    background: rgb(21, 20, 20);
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.button-view:hover {
+    color:aquamarine;
+    border: 0.1rem solid aquamarine;
+   
+}

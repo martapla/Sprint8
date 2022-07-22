@@ -42,7 +42,7 @@ function StarshipList (){
             <div>
                 {
                     nextPage && 
-                        <button onClick={() => setPage(page + 1)}> View more </button>
+                        <button className= "button-view" onClick={() => setPage(page + 1)}> View more </button>
                 }
             </div>
         </div>

@@ -10,6 +10,7 @@ import Starship from './components/Starship';
 import Home from './components/navbar/Home';
 import reportWebVitals from './reportWebVitals';
 import  './components/starship.css';
+import  './components/navbar/starshipList.css';
 import './components/styles.css';
 import './components/navbarTop/navbarTop.css'
 import './components/navbar/navbar.css'
@@ -24,6 +25,8 @@ root.render(
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='starships' element={<StarshipList />} />
+        {/* Exercise 7
+        <Route path='starships' element={localStorage.getItem('user') ? <StarshipList /> : <Login />} /> */}
         <Route path='starship/:starshipId' element={<Starship />} />
         <Route path='/login' element={<Login />}/>
         <Route path='/signup' element={<Login />}/>
